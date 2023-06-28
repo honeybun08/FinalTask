@@ -27,11 +27,3 @@ void PrintArray(string[] arr)
         Console.Write($"{arr[i]}");
     }
 }
-
-
-
-
-
-
-
-
