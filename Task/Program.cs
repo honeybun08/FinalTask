@@ -1,5 +1,10 @@
-﻿string[] array1 = new string[4] {"Hello", "2", "world", ":-)"};
+﻿string[] array1 = new string[3] { "cherry", "feather", "wonderland"};
 string[] array2 = new string[array1.Length];
+
+NewArrayString(array1, array2);
+Console.Write("[");
+PrintArray(array2);
+Console.WriteLine("]");
 
 
 void NewArrayString(string[] array1, string[] array2)
@@ -15,7 +20,6 @@ void NewArrayString(string[] array1, string[] array2)
     }
 }
 
-
 void PrintArray(string[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
@@ -25,10 +29,8 @@ void PrintArray(string[] arr)
 }
 
 
-NewArrayString(array1, array2);
-Console.Write("[");
-PrintArray(array2);
-Console.WriteLine("]");
+
+
 
 
 
